@@ -1,1 +1,33 @@
-<p>stats works!</p>
+<div class="stats-container">
+    <h1 class="title">Future Metrics Dashboard</h1>
+
+    <!-- Seção de gráficos -->
+    <div class="charts-section">
+        <div class="chart-card">
+            <h2>Projected Monthly Bets</h2>
+            <echarts [options]="monthlyBetsOptions" class="chart-container"></echarts>
+        </div>
+
+        <div class="chart-card">
+            <h2>Popular Sports Forecast</h2>
+            <echarts [options]="popularSportsOptions" class="chart-container"></echarts>
+        </div>
+    </div>
+
+    <div class="charts-section">
+        <div class="chart-card">
+            <h2>User Growth Prediction</h2>
+            <echarts [options]="userGrowthOptions" class="chart-container"></echarts>
+        </div>
+
+        <div class="chart-card">
+            <h2>Bet Distribution Forecast</h2>
+            <echarts [options]="betDistributionOptions" class="chart-container"></echarts>
+        </div>
+    </div>
+
+    <div class="chart-card">
+        <h2>Top Countries Projections</h2>
+        <echarts [options]="topCountriesOptions" class="chart-container"></echarts>
+    </div>
+</div>

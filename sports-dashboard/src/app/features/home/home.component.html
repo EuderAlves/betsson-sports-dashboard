@@ -1,1 +1,32 @@
-<p>home works!</p>
+<div class="home-container">
+    <h1 class="title">Betsson Sports Dashboard</h1>
+
+    <div class="charts-section">
+        <mat-card class="chart-card">
+            <h2>Monthly Bets Overview</h2>
+            <echarts [options]="monthlyBetsOptions" class="chart-container"></echarts>
+        </mat-card>
+
+        <mat-card class="chart-card">
+            <h2>Popular Sports Breakdown</h2>
+            <echarts [options]="popularSportsOptions" class="chart-container"></echarts>
+        </mat-card>
+    </div>
+
+    <div class="charts-section">
+        <mat-card class="chart-card">
+            <h2>User Growth Over Time</h2>
+            <echarts [options]="userGrowthOptions" class="chart-container"></echarts>
+        </mat-card>
+
+        <mat-card class="chart-card">
+            <h2>Bet Distribution</h2>
+            <echarts [options]="betDistributionOptions" class="chart-container"></echarts>
+        </mat-card>
+    </div>
+
+    <mat-card class="chart-card">
+        <h2>Top Betting Countries</h2>
+        <echarts [options]="topCountriesOptions" class="chart-container"></echarts>
+    </mat-card>
+</div>

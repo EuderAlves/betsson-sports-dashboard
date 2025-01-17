@@ -1,0 +1,49 @@
+header {
+  width: 100%;
+}
+
+.header-toolbar {
+  background-color: #003b49; /* Cor de fundo do cabeçalho, similar à da Betsson */
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo-container {
+  flex: 1;
+}
+
+.logo {
+  height: 32px;
+}
+
+.nav-links {
+  display: flex;
+  gap: 20px;
+}
+
+.nav-links button {
+  color: white;
+}
+
+.user-icons button {
+  color: white;
+}
+
+.mat-menu-item {
+  font-size: 14px;
+}
+@media (max-width: 768px) {
+  .nav-links {
+    display: none; /* Esconde os links de navegação em telas menores */
+  }
+
+  .user-icons button {
+    font-size: 20px; /* Aumenta os ícones para facilitar o toque em dispositivos móveis */
+  }
+
+  .logo {
+    height: 30px; /* Reduz o tamanho do logo em telas menores */
+  }
+}

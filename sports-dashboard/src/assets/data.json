@@ -1,0 +1,44 @@
+{
+  "monthlyBets": {
+    "labels": [
+      "January",
+      "February",
+      "March",
+      "April",
+      "May",
+      "June",
+      "July",
+      "August",
+      "September",
+      "October",
+      "November",
+      "December"
+    ],
+    "data": [
+      1200, 1500, 1800, 2000, 2500, 3000, 3200, 3100, 3300, 4000, 4500, 5000
+    ]
+  },
+  "popularSports": {
+    "labels": [
+      "Football",
+      "Tennis",
+      "Basketball",
+      "Esports",
+      "Hockey",
+      "Baseball"
+    ],
+    "data": [50, 20, 15, 10, 5, 8]
+  },
+  "userGrowth": {
+    "labels": ["2019", "2020", "2021", "2022", "2023", "2024"],
+    "data": [1000, 5000, 10000, 20000, 40000, 60000]
+  },
+  "betDistribution": {
+    "categories": ["Small Bets", "Medium Bets", "High Bets", "VIP Bets"],
+    "values": [3000, 2000, 1000, 500]
+  },
+  "topCountries": {
+    "countries": ["Sweden", "Norway", "Germany", "Brazil", "Spain"],
+    "values": [5000, 4000, 3500, 3200, 3000]
+  }
+}
