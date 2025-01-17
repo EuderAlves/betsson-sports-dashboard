@@ -1,108 +1,107 @@
 # Betsson Sports Dashboard
 
-Este é um painel interativo de estatísticas para apostas esportivas, criado com o **Angular 17** e utilizando gráficos interativos com **echarts**. O painel é projetado para exibir métricas e dados importantes para monitoramento de apostas esportivas, com foco em visualizações claras e objetivas.
+This is an interactive sports betting statistics dashboard built with Angular 17, featuring interactive charts using ECharts. The dashboard is designed to display key metrics and data for monitoring sports betting activities, with a focus on clear and concise visualizations.
 
-## Link para acessar a aplicação
+## Application Link
 
-https://betsson-sports-dashboard-34sg.vercel.app/
+[Access the live application](https://betsson-sports-dashboard-34sg.vercel.app/)
 
-## Sumário
+## Table of Contents
 
-- [Visão Geral](#visão-geral)
-- [Funcionalidades](#funcionalidades)
-- [Tecnologias Utilizadas](#tecnologias-utilizadas)
-- [Estrutura do Projeto](#estrutura-do-projeto)
-- [Como Rodar o Projeto](#como-rodar-o-projeto)
-- [Como Contribuir](#como-contribuir)
+- [Overview](#overview)
+- [Features](#features)
+- [Technologies Used](#technologies-used)
+- [Project Structure](#project-structure)
+- [How to Run the Project](#how-to-run-the-project)
+- [How to Contribute](#how-to-contribute)
 
-## Visão Geral
+## Overview
 
-O painel exibe gráficos interativos para fornecer uma visão detalhada de métricas relacionadas a apostas esportivas. As visualizações incluem:
+The dashboard displays interactive charts to provide a detailed view of metrics related to sports betting. The visualizations include:
 
-- **Visão Geral das Apostas Mensais**
-- **Distribuição das Apostas**
-- **Crescimento de Usuários ao Longo do Tempo**
-- **Top Países de Apostas**
-- **Quebra de Esportes Populares**
+- **Monthly Bet Overview**
+- **Bet Distribution**
+- **User Growth Over Time**
+- **Top Betting Countries**
+- **Popular Sports Breakdown**
 
-Esses gráficos são alimentados com dados mockados e são exibidos de maneira interativa usando **echarts** para facilitar a análise de dados.
+These charts are powered by mock data and displayed interactively using ECharts for easy data analysis.
 
-## Funcionalidades
+## Features
 
-- **Visualizações interativas**: O painel inclui vários gráficos para análise de dados.
-- **Responsividade**: A interface do painel se adapta automaticamente a diferentes tamanhos de tela (desktops, tablets e celulares).
-- **Cartões de gráficos**: Cada gráfico é apresentado em um cartão com elevação para um visual limpo e moderno.
-- **Futuras melhorias**: O painel está pronto para ser integrado com dados reais por meio de uma API RESTful, permitindo uma atualização dinâmica das métricas.
+- **Interactive Visualizations**: The dashboard includes several charts for data analysis.
+- **Responsiveness**: The dashboard layout adapts seamlessly to different screen sizes (desktops, tablets, and mobile devices).
+- **Chart Cards**: Each chart is presented within an elevated card for a clean and modern appearance.
+- **Future Enhancements**: The dashboard is ready to integrate with real data via a RESTful API, enabling dynamic metric updates.
 
-## Tecnologias Utilizadas
+## Technologies Used
 
-- **Angular 17**: Framework front-end utilizado para criar a aplicação SPA (Single Page Application).
-- **echarts**: Biblioteca para gráficos interativos.
-- **SCSS**: Pré-processador CSS para um design mais flexível e modular.
-- **RxJS**: Para lidar com programação reativa e fluxo de dados assíncronos.
+- **Angular 17**: Front-end framework for building the Single Page Application (SPA).
+- **ECharts**: Library for creating interactive charts.
+- **SCSS**: CSS preprocessor for flexible and modular design.
+- **RxJS**: Library for reactive programming and handling asynchronous data streams.
 
-## Estrutura do Projeto
+## Project Structure
 
-A estrutura do projeto segue os princípios de modularidade e boa organização de código. Abaixo está a estrutura de diretórios principal:
+The project follows principles of modularity and clean code organization. Below is the main directory structure:
 
-### Componentes
+- **Components**:
+  - **Header**: Displays the header with the title and navigation.
+  - **Stats**: Contains the statistical charts and data display logic.
+  - **AppComponent**: The main component that organizes the different pages of the dashboard.
 
-- **Header**: Exibe o cabeçalho com o título e navegação.
-- **Stats**: Contém os gráficos de estatísticas e a lógica para exibição de dados.
-- **AppComponent**: Componente principal que organiza as diferentes páginas do painel.
+## How to Run the Project
 
-## Como Rodar o Projeto
+### Prerequisites
 
-### Pré-requisitos
+Make sure you have Node.js installed on your machine. It is recommended to use the LTS (Long Term Support) version.
 
-1. Certifique-se de que você tem o [Node.js](https://nodejs.org/) instalado em sua máquina. É recomendável usar a versão LTS (Long Term Support).
-2. Instale o Angular CLI globalmente, caso ainda não tenha:
-   ```bash
-   npm install -g @angular/cli
-   ```
+Install Angular CLI globally if not already installed:
 
-### Instalação
+npm install -g @angular/cli
 
-## Clone o repositório:
+### Installation
+
+## Clone the repository:
 
 git clone https://github.com/seu-usuario/betsson-sports-dashboard.git
 
-## Acesse a pasta do projeto:
+## Navigate to the project folde:
 
 cd betsson-sports-dashboard
 
-## Instale as dependências:
+## Install the dependencies:
 
 npm install
 
-## Rodando o Projeto
+## Running the Project
 
-Para rodar o projeto localmente, use o comando abaixo:
+To run the project locally, use the following command:
 
 ng serve
 
-## A aplicação estará disponível em:
+## The application will be available at:
 
 http://localhost:4200.
 
-### Como Contribuir
+### How to Contribute
 
-Contribuições são sempre bem-vindas! Se você quiser contribuir com o projeto, siga os passos abaixo:
+Contributions are always welcome! If you'd like to contribute to the project, follow the steps below:
 
-## Faça um fork deste repositório.
+## Fork this repository.
 
-Crie uma branch para sua funcionalidade ou correção de bug:
+Create a new branch for your feature or bug fix:
 
-git checkout -b minha-funcionalidade
+git checkout -b my-feature
 
-## Faça as alterações e commit:
+## Make your changes and commit:
 
-git commit -am 'Adiciona nova funcionalidade'
+git commit -am 'Add new feature'
 
-## Envie para o repositório remoto:
+## Push to the remote repository:
 
-git push origin minha-funcionalidade
+git push origin my-feature
 
-## Abra um pull request no GitHub.
+## Open a pull request on GitHub.
 
-Me avise para eu possa ver o seu pull request
+Let me know so I can review your pull request!
