@@ -84,3 +84,25 @@ ng serve
 ## A aplicação estará disponível em:
 
 http://localhost:4200.
+
+### Como Contribuir
+
+Contribuições são sempre bem-vindas! Se você quiser contribuir com o projeto, siga os passos abaixo:
+
+## Faça um fork deste repositório.
+
+Crie uma branch para sua funcionalidade ou correção de bug:
+
+git checkout -b minha-funcionalidade
+
+## Faça as alterações e commit:
+
+git commit -am 'Adiciona nova funcionalidade'
+
+## Envie para o repositório remoto:
+
+git push origin minha-funcionalidade
+
+## Abra um pull request no GitHub.
+
+Me avise para eu possa ver o seu pull request
