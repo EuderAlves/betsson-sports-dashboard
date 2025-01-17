@@ -64,7 +64,7 @@ npm install -g @angular/cli
 
 ## Clone the repository:
 
-git clone https://github.com/seu-usuario/betsson-sports-dashboard.git
+git clone https://github.com/EuderAlves/betsson-sports-dashboard.git
 
 ## Navigate to the project folde:
 
